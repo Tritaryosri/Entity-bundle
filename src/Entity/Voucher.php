@@ -1,20 +1,18 @@
 <?php
 
-namespace Dotit\CashpointBundle\Entity;
+namespace App\Entity;
 
 use App\Entity\Traits\ObjectMetaDataTrait;
 use App\Entity\Traits\SoftDeleteableTrait;
 use App\Entity\Traits\TimestampableTrait;
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Vich\UploaderBundle\Mapping\Annotation as Vich;
-use Vich\UploaderBundle\Entity\File as EmbeddedFile;
+
+
 use Symfony\Component\HttpFoundation\File\File;
 
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\VoucherRepository")
- * @Vich\Uploadable
  */
 class Voucher
 {

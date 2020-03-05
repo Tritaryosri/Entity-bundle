@@ -1,6 +1,6 @@
 <?php
 
-namespace Dotit\CashpointBundle\Entity\Traits;
+namespace App\Entity\Traits;
 
 /**
  * Trait ObjectMetaDataTrait
