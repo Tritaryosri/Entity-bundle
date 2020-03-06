@@ -32,12 +32,12 @@
 
     "autoload": {
         "psr-4": {
-            "DotitEntityBundle\\": "src/"
+            "App\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DotitEntityBundle\\Tests\\": "tests/"
+            "App\\Tests\\": "tests/"
         }
     },
     "conflict": {
